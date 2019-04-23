@@ -1,0 +1,55 @@
+.todo__statistic {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.todo-list-container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.todo-item {
+    padding: 5px 10px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.todo-item.done .todo-item__text {
+    text-decoration: line-through;
+}
+
+.todo-item.important .todo-item__text {
+    font-weight: 700;
+    color: darkcyan;
+}
+
+.todo-item__text {
+    flex-grow: 1;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.todo-item__action .btn {
+    width: 40px;
+}
+
+.app-wrap {
+    padding: 50px 0;
+}
+
+.app-wrap .form-group {
+    margin-bottom: 0;
+}
+
+.show {
+    display: inline-block;
+    visibility: visible;
+}
+
+.hide {
+    display: none;
+    visibility: hidden;
+}

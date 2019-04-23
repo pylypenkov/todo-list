@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app-wrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-6 offset-lg-3">
+                <h1 class="text-center">Todo List</h1>
+
+                <div class="todo__statistic">%leave% more to do, %done% done</div>
+
+                <div class="form-group row">
+                    <div class="col-6">
+                        <input type="text" placeholder="type to search" class="form-control todo-search">
+                    </div>
+
+                    <div class="btn-group col-6 todo-filter">
+                        <button type="button" class="btn btn-outline-secondary active" data-filter="all">All</button>
+                        <button type="button" class="btn btn-outline-secondary" data-filter="active">Active</button>
+                        <button type="button" class="btn btn-outline-secondary" data-filter="done">Done</button>
+                    </div>
+                </div>
+
+                <div class="todo-list-container">
+                    <!--<div class="todo-item" id="todo-0">
+                        <div class="todo-item__text">Todo list item</div>
+                        <div class="todo-item__action">
+                            <button class="btn btn-outline-danger btn&#45;&#45;del"><i class="far fa-trash-alt"></i></button>
+                            <button class="btn btn-outline-success btn&#45;&#45;important"><i class="fas fa-exclamation"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="todo-item done" id="todo-1">
+                        <div class="todo-item__text">Todo list item</div>
+                        <div class="todo-item__action">
+                            <button class="btn btn-outline-danger btn&#45;&#45;del"><i class="far fa-trash-alt"></i></button>
+                            <button class="btn btn-outline-success btn&#45;&#45;important"><i class="fas fa-exclamation"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="todo-item important" id="todo-2">
+                        <div class="todo-item__text">Todo list item</div>
+                        <div class="todo-item__action">
+                            <button class="btn btn-outline-danger btn&#45;&#45;del"><i class="far fa-trash-alt"></i></button>
+                            <button class="btn btn-outline-success btn&#45;&#45;important"><i class="fas fa-exclamation"></i></button>
+                        </div>
+                    </div>-->
+                </div>
+
+                <div class="row align-items-center">
+                    <div class="col-8">
+                        <input type="text" placeholder="What needs to be done" class="form-control input--add">
+                    </div>
+                    
+                    <div class="col-2">
+                        <div class="form-group">
+                            <input type="checkbox" class="form-check-input input--important" id="inputImportant">
+                            <label class="form-check-label" for="inputImportant">Important</label>
+                        </div>
+
+
+                    </div>
+
+                    <div class="col-2 text-right">
+                        <button type="button" class="btn btn-outline-secondary btn--add">Add</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
