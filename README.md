@@ -1,2 +1,2 @@
 # todo-list
-JS SPA
+Pet project JS SPA
